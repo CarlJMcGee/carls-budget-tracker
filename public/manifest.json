@@ -1,0 +1,19 @@
+{
+  "name": "Carl's Budget Tracker",
+  "short_name": "Budget Tracker",
+  "description": "An app to track your expenses and income",
+  "background_color": "#ffffff",
+  "theme_color": "#6666ff",
+  "icons": [
+    {
+      "src": "public/icons/icon-192x192.png",
+      "type": "image/png",
+      "size": "192x192"
+    },
+    {
+      "src": "public/icons/icon-512x512.png",
+      "type": "image/png",
+      "size": "512x512"
+    }
+  ]
+}
