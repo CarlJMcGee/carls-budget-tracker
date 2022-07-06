@@ -12,7 +12,6 @@ request.onsuccess = function (e) {
 
   if (navigator.onLine) {
     uploadTransaction();
-    console.log(`uploadTransaction`);
   }
 };
 
@@ -62,4 +61,4 @@ function uploadTransaction() {
   };
 }
 
-window.addEventListener("online", uploadTransaction());
+window.addEventListener("online", uploadTransaction);
