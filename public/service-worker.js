@@ -10,7 +10,7 @@ const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 self.addEventListener("install", function (e) {
-  e.waitUntill(
+  e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       console.log(`instaling cache: ${CACHE_NAME}`);
 
@@ -20,7 +20,7 @@ self.addEventListener("install", function (e) {
 });
 
 self.addEventListener("activate", function (e) {
-  e.waitUntill(
+  e.waitUntil(
     caches.keys().then(function (keyList) {
       let cacheKeepList = keyList.filter(function (key) {
         return key.indexOf(APP_PREFIX);
