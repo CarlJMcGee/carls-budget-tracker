@@ -55,3 +55,5 @@ or
 If you have any other questions or inquiries, you can contact me at [Carl.Jack.McGee@gmail.com](mailto:Carl.Jack.McGee@gmail.com)
 
 ## [Check it out!](https://carls-budget-tracker.herokuapp.com/)
+
+<a href="https://carls-budget-tracker.herokuapp.com/"><img src="./screenshot-carls-budget-tracker.herokuapp.com-2022.07.07-18_31_14.png" alt="screenshot" width="1000"/></a>
